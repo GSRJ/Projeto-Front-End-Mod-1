@@ -3,7 +3,7 @@
 const pokemons = [
   {
     id: 001,
-    img: "./img/Pokedex - 806 Pokemons (Transparentes)/001 - bulbasauro.png",
+    img: "./img/Pokedex - 806 Pokemons (Transparentes)/001 - Bulbasauro.png",
     nameItem: "Bulbasauro",
     description:
       "Há uma semente de planta nas costas desde o dia em que este Pokémon nasce. A semente cresce lentamente.",
