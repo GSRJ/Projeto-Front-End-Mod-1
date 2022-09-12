@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/database.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>LoJa</h1>
+        <img src="./img/Logo.png" alt="Logo Pokeloja" />
+      </div>
+      <ul class="nav">
+        <li><a href=""> Voador</a></li>
+        <li><a href=""> Aqua</a></li>
+        <li><a href=""> Terrestre</a></li>
+      </ul>
+    </header>
+    <main>
+      <section class="list">
+        <h2 class="textoTitulo">PoKéMoNs</h2>
+        <ul id="pokeList"></ul>
+      </section>
+      <aside class="listagem">
+        <form action="">
+          <input
+            id="searchbar"
+            onkeyup="search_poke()"
+            type="text"
+            name="search"
+            placeholder="Buscar Pokemon.."
+          />
+          <button id="searchbutton" type="search">Busca</button>
+        </form>
+        <section class="capturados">
+          <h2>Capturados <small id="quantidade">(0)</small></h2>
+          <ul id="listaEscolhidos"></ul>
+          <h2>Total $ : <small id="total">0</small></h2>
+        </section>
+      </aside>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

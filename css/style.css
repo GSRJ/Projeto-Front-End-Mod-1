@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Inter', sans-serif; */
+
+@font-face {
+  font-family: "Pokemon";
+  src: url(./fontes/Pokemon\ Solid.ttf);
+}
+@font-face {
+  font-family: "Karma";
+  src: url(./fontes/karma\ future.otf);
+}
+@font-face {
+  font-family: "Karma2";
+  src: url(./fontes/karma\ suture.otf);
+}
+body {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+header {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.logo {
+  display: flex;
+  max-height: 100%;
+  margin-left: 35px;
+  align-items: center;
+  font-family: "Pokemon";
+  font-size: 60px;
+  color: #2e245e;
+}
+.logo img {
+  width: 100px;
+}
+.nav {
+  display: flex;
+  margin: 10px;
+}
+.nav li {
+  margin: 10px;
+}
+.nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+main {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  column-gap: 10px;
+}
+
+.textoTitulo {
+  color: #ffcb1e;
+  text-shadow: 1px 3px #0000ff;
+  font-size: 50px;
+  font-family: "Pokemon";
+  padding-bottom: 25px;
+  text-align: center;
+}
+#pokeList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pokeCard {
+  text-align: center;
+  width: 280px;
+  margin: 10px;
+  border-bottom: 1px solid;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  filter: grayscale(70%);
+}
+.pokeCard:hover {
+  filter: grayscale(0%);
+}
+.pokeImg {
+  margin-bottom: -28px;
+  width: 100%;
+  border-radius: 10px;
+}
+.textCard {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.type,
+.power {
+  padding: 5px;
+  color: #f5f5f5;
+  background-color: #333333;
+}
+
+.pokeCard h3 {
+  color: #333333;
+  font-size: 24px;
+  font-family: "karma2";
+  font-weight: bolder;
+  text-align: left;
+  line-height: 40px;
+}
+.descriptionCard {
+  color: #333333;
+  text-align: left;
+  margin-bottom: 15px;
+  min-height: 50px;
+  max-height: 50px;
+}
+
+.pokeCard button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+.pokeCard button img {
+  height: 70px;
+}
+.pokeCard button img:hover {
+  height: 100px;
+}
+
+.listagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#searchbar {
+  width: 50%;
+  margin: 30px -10px 10px 0px;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 12px;
+  border: 1px solid #2e245e;
+}
+#searchbutton {
+  margin: 0px 0px 0px 0px;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 12px;
+  border: 1px solid #2e245e;
+}
+
+.capturados {
+  font-weight: 800;
+  margin-top: 5px;
+  width: 100%;
+}
+#quantidade,
+small {
+  font-family: "Karma2";
+  font-size: 12px;
+}
+
+#listaEscolhidos {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: space-around;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 250px;
+  border: 5px solid #2e245e;
+}
+
+#listaEscolhidos:hover {
+  overflow-y: auto;
+}
+.selectedCard {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 95%;
+  max-width: 95%;
+  min-height: 50%;
+  max-height: 50%;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid black;
+}
+
+.selectedCard img {
+  width: 120px;
+  border: 2px solid red;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.selectedCard span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 5px;
+}
+
+.selectedCard span p {
+  font-family: "karma2";
+  font-weight: light;
+}
+.selectedCard span button {
+  border: none;
+  font-weight: bold;
+}
+.selectedCard span button:hover {
+  text-decoration: underline;
+}

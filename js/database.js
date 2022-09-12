@@ -1,64 +1,58 @@
 // Banco de dados dos produtos
 
-const data = [
+const pokemons = [
   {
-    id: 1,
-    img: "../img/jaqueta.svg",
-    nameItem: "Lightweight Jacket",
+    id: 001,
+    img: "./img/Pokedex - 806 Pokemons (Transparentes)/001 - bulbasauro.png",
+    nameItem: "Bulbasauro",
     description:
-      "Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...",
+      "Há uma semente de planta nas costas desde o dia em que este Pokémon nasce. A semente cresce lentamente.",
     value: 100,
-    addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
+    tag: "Terrestre",
   },
   {
-    id: 2,
-    img: "../img/gorro.svg",
-    nameItem: "Black Hat",
+    id: 002,
+    img: "./img/Pokedex - 806 Pokemons (Transparentes)/002 - Charmander.png",
+    nameItem: "Charmander",
     description:
-      "O gorro Next.js chegou! Esta beldade bordada tem um ajuste confortável que garante que...",
+      "Desde o nascimento, uma chama queima na ponta de sua cauda. Sua vida terminaria se a chama se apagasse.",
     value: 100,
-    addCart: "Adicionar ao carrinho",
-    tag: ["Acessórios"],
+    tag: "Terrestre",
   },
   {
-    id: 3,
-    img: "../img/mascara.svg",
-    nameItem: "Mask",
+    id: 003,
+    img: "./img/Pokedex - 806 Pokemons (Transparentes)/003 - Squirtle.png",
+    nameItem: "Squirtle",
     description:
-      "Esta máscara facial durável é feita de duas camadas de tecido tratado e possui presilhas...",
+      "Quando retrai seu longo pescoço em sua concha, esguicha água com força vigorosa.",
+    value: 100,
+    tag: "Aqua",
+  },
+  {
+    id: 004,
+    img: "./img/Pokedex - 806 Pokemons (Transparentes)/004 - Caterpie.png",
+    nameItem: "Caterpie",
+    description:
+      "Para proteção, ele libera um cheiro horrível da antena em sua cabeça para afastar os inimigos.",
     value: 40,
-    addCart: "Adicionar ao carrinho",
-    tag: ["Acessórios"],
+    tag: "Terrestre",
   },
   {
-    id: 4,
-    img: "../img/camiseta_preta.svg",
-    nameItem: "T-Shirt",
+    id: 005,
+    img: "./img/Pokedex - 806 Pokemons (Transparentes)/005 - Weedle.png",
+    nameItem: "Weedle",
     description:
-      "Esta t-shirt é imprescindível no seu guarda-roupa, combinando o caimento intemporal de...",
-    value: 100,
-    addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
+      "Cuidado com o ferrão afiado em sua cabeça. Esconde-se na grama e nos arbustos onde come folhas.",
+    value: 45,
+    tag: "Terrestre",
   },
   {
-    id: 5,
-    img: "../img/camiseta_branca.svg",
-    nameItem: "Short-Sleeve T-Shirt",
+    id: 006,
+    img: "./img/Pokedex - 806 Pokemons (Transparentes)/006 - Pidgey.png",
+    nameItem: "Pidgey",
     description:
-      "Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um mais grosso...",
-    value: 100,
-    addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
-  },
-  {
-    id: 6,
-    img: "../img/moletom.svg",
-    nameItem: "Champion Packable Jacket",
-    description:
-      "Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta de poliést...",
-    value: 100,
-    addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
+      "Muito dócil. Se atacado, ele geralmente levanta areia para se proteger, em vez de revidar.",
+    value: 70,
+    tag: "Voador",
   },
 ];
